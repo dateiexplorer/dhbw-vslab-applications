@@ -1,10 +1,13 @@
-# dhbw-kafkaapplications
+# dhbw-vslab-applications
 
-A collection of applications that make use of Kafka written for the
+A collection of applications that make use of messaging systems for the
 distributed systems lab.
 
 This application was written in Go an makes use of the following go project:
-- github.com/confluentinc/confluent-kafka-go (Kafka-Library)
+- github.com/confluentinc/confluent-kafka-go (as Kafka-Library)
+- https://github.com/eclipse/paho.mqtt.golang (as MQTT library)
+- https://github.com/google/uuid (to generate unique IDs)
+- https://golang.org/x/net/websocket (for communication with frontend)
 
 ## Disclaimer
 
@@ -16,15 +19,16 @@ It is not under active development.
 To run the applications successfully, you'll need a properly set up VPN
 connection to the DHBW Mosbach VPN-Server.
 
-The protocol of for some basic questions is in the `docs` folder.
+The protocols for some questions about basic understanding of the technologies
+are in the `docs` folder.
 
 ## Quickstart
 
 Download the repository, e.g.:
 
 ```sh
-git clone https://github.com/dateiexplorer/dhbw-kafkaapplications.git
-cd dhbw-kafkaapplications
+git clone https://github.com/dateiexplorer/dhbw-vslab-applications.git
+cd dhbw-vslab-applications
 ```
 
 To run an example, you'll need a Go and the libraries properly installed on

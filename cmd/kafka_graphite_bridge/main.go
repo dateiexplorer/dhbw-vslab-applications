@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dateiexplorer/dhbw-kafkaapplications/internal/data"
-	"github.com/dateiexplorer/dhbw-kafkaapplications/internal/wrapper"
+	"github.com/dateiexplorer/dhbw-vslab-applications/internal/data"
+	"github.com/dateiexplorer/dhbw-vslab-applications/internal/wrapper"
 	"github.com/jtaczanowski/go-graphite-client"
 )
 

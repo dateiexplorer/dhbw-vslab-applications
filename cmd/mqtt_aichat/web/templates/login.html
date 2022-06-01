@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Chat - Login</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="login">
+        <header class="msger-header">
+            <div class="msger-header-title">
+                AI Chat
+            </div>
+        </header>
+
+        <main class="msger-chat">
+            <div class="login-logo">
+                <img id="logo" src="/assets/images/dhbw_mosbach_logo.png" />
+            </div>
+            <form action="/" method="GET" class="login-inputarea">
+                <label for="sender">Your Name</label>
+                <input class="login-input" type="text" placeholder="Enter your name" name="name" value="{{.Name}}"
+                    required>
+                <label for="topic">Room</label>
+                <input class="login-input" type="text" placeholder="Enter room" name="room" value="{{.Room}}" required>
+                <button type="submit" class="login-send-btn">Join</button>
+            </form>
+        </main>
+
+    </section>
+</body>
+
+</html>

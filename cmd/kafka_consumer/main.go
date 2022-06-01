@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/dateiexplorer/dhbw-kafkaapplications/internal/data"
-	"github.com/dateiexplorer/dhbw-kafkaapplications/internal/wrapper"
+	"github.com/dateiexplorer/dhbw-vslab-applications/internal/data"
+	"github.com/dateiexplorer/dhbw-vslab-applications/internal/wrapper"
 )
 
 const (
