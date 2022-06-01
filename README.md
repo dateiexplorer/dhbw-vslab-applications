@@ -4,7 +4,7 @@ A collection of applications that make use of messaging systems for the
 distributed systems lab.
 
 This application was written in Go an makes use of the following go project:
-- github.com/confluentinc/confluent-kafka-go (as Kafka-Library)
+- https://github.com/confluentinc/confluent-kafka-go (as Kafka-Library)
 - https://github.com/eclipse/paho.mqtt.golang (as MQTT library)
 - https://github.com/google/uuid (to generate unique IDs)
 - https://golang.org/x/net/websocket (for communication with frontend)
