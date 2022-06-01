@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/dateiexplorer/dhbw-kafkaapplications/internal/data"
+	"github.com/dateiexplorer/dhbw-vslab-applications/internal/data"
 )
 
 type WeatherDataHandler func(*data.WeatherData)

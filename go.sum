@@ -1,7 +1,5 @@
 github.com/confluentinc/confluent-kafka-go v1.8.2 h1:PBdbvYpyOdFLehj8j+9ba7FL4c4Moxn79gy9cYKxG5E=
 github.com/confluentinc/confluent-kafka-go v1.8.2/go.mod h1:u2zNLny2xq+5rWeTQjFHbDzzNuba4P1vo31r9r4uAdg=
-github.com/dateiexplorer/dhbw-kafkaapplications v0.0.0-20220601145726-9fb8859d6f77 h1:y/hoKIDvGh7qvPc0R6YaxuAvJ0qAP8KuhWWO/3LkGhY=
-github.com/dateiexplorer/dhbw-kafkaapplications v0.0.0-20220601145726-9fb8859d6f77/go.mod h1:4xRCHeReO0ofnJOEF1ZsNm+If3J/o1/jVKqSJIrNVOs=
 github.com/eclipse/paho.mqtt.golang v1.3.5 h1:sWtmgNxYM9P2sP+xEItMozsR3w0cqZFlqnNN1bdl41Y=
 github.com/eclipse/paho.mqtt.golang v1.3.5/go.mod h1:eTzb4gxwwyWpqBUHGQZ4ABAV7+Jgm1PklsYT/eo8Hcc=
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=

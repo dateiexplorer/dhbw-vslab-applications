@@ -220,6 +220,7 @@ func main() {
 
 	http.Handle("/ws", websocket.Handler(websocketHandler))
 
+	fmt.Printf("Start server... Open a webbrowser on http://localhost:%v to start chatting.\n", UIPort)
 	// Start web server
 	log.Fatalln(http.ListenAndServe(fmt.Sprintf(":%v", UIPort), nil))
 }
