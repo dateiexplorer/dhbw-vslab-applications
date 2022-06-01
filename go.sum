@@ -2,3 +2,5 @@ github.com/confluentinc/confluent-kafka-go v1.8.2 h1:PBdbvYpyOdFLehj8j+9ba7FL4c4
 github.com/confluentinc/confluent-kafka-go v1.8.2/go.mod h1:u2zNLny2xq+5rWeTQjFHbDzzNuba4P1vo31r9r4uAdg=
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
 github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/jtaczanowski/go-graphite-client v1.1.0 h1:e6nbkSkTI15Gy50gwHprfrxplx7okV4q6weDXb9v8ZQ=
+github.com/jtaczanowski/go-graphite-client v1.1.0/go.mod h1:K/Glts7ZyF9FYZ22s5wZJ4gCH5K7zif7+rGqLmdbSV8=
