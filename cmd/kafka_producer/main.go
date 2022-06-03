@@ -18,7 +18,7 @@ const (
 
 var (
 	// Ensure that this topic is unique
-	topic = "vlvs_inf19b_go_random_7f18"
+	topic = "vlvs_inf19b_5703004_random"
 )
 
 type Message struct {

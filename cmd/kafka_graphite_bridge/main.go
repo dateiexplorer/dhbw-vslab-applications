@@ -18,7 +18,7 @@ const (
 	Broker             = "10.50.15.52"
 	GraphiteHost       = "10.50.15.52"
 	GraphitePort       = 2003
-	GraphiteMetricsPfx = "vlvs_inf19b.go7f18.weather"
+	GraphiteMetricsPfx = "vlvs_inf19b.5703004.weather"
 	GraphiteProtocol   = "tcp"
 )
 
