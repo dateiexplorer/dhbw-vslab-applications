@@ -18,6 +18,10 @@ func onMessageReceived(msg *kafka.Message, handler WeatherDataHandler) {
 		log.Printf("cannot parse message '%v' in weather data: %v\n",
 			string(msg.Value), err)
 	} else {
+		// Use the timestamp from the kafka object, because weather datas
+		// timestamp doesn't produce continous data.
+		timestamp := msg.Timestamp
+		weatherData.TimeStamp = timestamp
 		handler(&weatherData)
 	}
 }
