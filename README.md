@@ -70,7 +70,7 @@ root. Afterwards you can execute an example by running:
 ./build/<application_name>
 ```
 
-## Hinweise zu Abgaben und Bewertung (German)
+## Hinweise zur Abgabe und Bewertung (German)
 
 Dieses Repository beinhaltet alle Übungen (1-3) des Labors. Die Applikationen
 befinden sich im `cmd` Ordner und erhalten das Präfix des jeweiligen Themas,
