@@ -69,3 +69,31 @@ root. Afterwards you can execute an example by running:
 ```sh
 ./build/<application_name>
 ```
+
+## Hinweise zu Abgaben und Bewertung (German)
+
+Dieses Repository beinhaltet alle Übungen (1-3) des Labors. Die Applikationen
+befinden sich im `cmd` Ordner und erhalten das Präfix des jeweiligen Themas,
+also bspw. `mqtt_` oder `kafka_`.
+
+Die Protokolle zu den einzelnen Aufgaben (1-3) befinden sich im `docs` Ordner.
+Screenshots der Grafana-Dashboard liegen den einzelnen Aufgaben jeweils unter
+`cmd/<application_name>/screenshots` bei, wenn Grafana-Dashboards in der
+Aufgabe verlangt sind.
+
+Die Aufgaben 1 und 2 sind in Einzelarbeit bearbeitet worden, Matrikelnnumer:
+- `5703004` 
+
+Die Aufgabe 3 (`kafka_tankerkoenig`) wurde im Team bearbeitet. Das Team
+besteht aus Studierenden mit den Matrikelnummern:
+
+- `1716504`
+- `2516708`
+- `3186523`
+- `5703004`
+
+Für die Aufgaben 1 und 2 geben die Studierenden mit den Matrikelnummern
+`1716504`, `2516708` und `3186523` ein separates Repository ab, da diese
+Aufgaben noch nicht im Team bearbeitet wurden.
+Für Aufgabe 3 soll entsprechend dieses Repository die Grundlage der Bewertung
+für alle vier Studierenden sein.
